@@ -1,18 +1,17 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
+    <WordCounter />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import WordCounter from './components/WordCounter.vue';
 
 export default Vue.extend({
   name: 'App',
   components: {
-    HelloWorld
+    WordCounter
   }
 });
 </script>
