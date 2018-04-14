@@ -7,5 +7,5 @@
     "strict": true,
     "lib": ["esnext", "dom"]
   },
-  "include": ["custom.d.ts"]
+  "include": ["custom.d.ts", "src/**/*.ts", "src/**/*.vue"]
 }
